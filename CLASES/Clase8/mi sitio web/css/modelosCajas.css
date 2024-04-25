@@ -1,0 +1,11 @@
+h1 {
+    border: solid 2px blue;
+}
+
+.content {
+    width: 800px;
+    height: 800px;
+    background:red;
+    max-width: 500px;
+    
+}

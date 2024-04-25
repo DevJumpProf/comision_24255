@@ -1,0 +1,15 @@
+h1 {
+/*     padding-left: 50%; */
+    border: solid 2px blue;
+
+
+}
+
+.content {
+    width: 100px;
+    height: 250px;
+    background:red;
+    max-width: 500px;
+    overflow: hidden;
+    
+}

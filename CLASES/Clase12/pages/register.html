@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="master">
+      <header>
+        <a href="../index.html">
+          <img src="../img/logo.jpg" alt="logo codo a codo" />
+        </a>
+        <nav>
+          <ul id="menu">
+            <li><a href="">Smartphones</a></li>
+            <li><a href="">Tablets</a></li>
+            <li><a href="">Computadoras </a></li>
+          </ul>
+
+          <ul id="ingreso">
+            <li><a href="../index.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="form">
+        <h1>Registrarse</h1>
+        <form action="">
+          <div class="group-form">
+            <label for="nombre">Nombre</label>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              required
+              placeholder="Ingresá tu nombre"
+            />
+            <span>Obligatorio.</span>
+          </div>
+          <div class="group-form">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Ingresá tu Email"
+            />
+            <span>Obligatorio.</span>
+          </div>
+          <div class="group-form">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              required
+              placeholder="Ingresá tu Contraseña"
+            />
+            <span>Obligatorio.</span>
+          </div>
+
+          <div class="group-form">
+            <h3>Lenguajes</h3>
+            <select name="" id="">
+              <option value="">Python</option>
+              <option value="">Javascript</option>
+              <option value="">JAVA</option>
+            </select>
+            <span>Obligatorio.</span>
+          </div>
+
+          <div class="group-form2">
+            <h3>Instructor/a</h3>
+            <input type="radio" name="instructor" id="" />
+            <label for="">Roberto</label>
+            <input type="radio" name="instructor" id="" />
+            <label for="">Giselle</label>
+            <input type="radio" name="instructor" id="" />
+            <label for="">Gabriel </label>
+          </div>
+
+          <div class="group-form2">
+            <h3>Turnos</h3>
+            <input type="checkbox" name="turno" id="" />
+            <label for="">Mañana</label>
+            <input type="checkbox" name="turno" id="" />
+            <label for="">Tarde</label>
+            <input type="checkbox" name="turno" id="" />
+            <label for="">Noche</label>
+          </div>
+          <div class="group-form2">
+            <h3>Dejanos tu comentario</h3>
+            <textarea name="" id="" cols="30" rows="8"></textarea>
+          </div>
+          <div class="group-form2">
+            <input type="checkbox" name="condiciones" id="" />
+            <label for="">Acepto términos y condiciones</label>
+          </div>
+
+          <div class="group-form2">
+            <button type="submit">Registrarme</button>
+          </div>
+
+          <a href="../index.html"> <button type="button">Cancelar</button></a>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

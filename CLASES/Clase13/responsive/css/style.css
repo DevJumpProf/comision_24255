@@ -1,0 +1,66 @@
+nav ul li {
+    display: inline-block;
+    padding-right: 10px;
+    background-color: aquamarine;
+}
+
+
+nav ul li a{
+    text-transform: uppercase;
+    color:black;
+    text-decoration: none;    
+}
+
+section{
+    width: 80%;
+/*     border: 1px solid red; */
+    margin : 10px auto;
+}
+
+section article {
+    width: 100%;
+/* border: 1px solid red; */
+}
+
+section article img {
+    width: 100%;
+}
+/* 
+@medias querys */
+
+@media (min-width:426px){
+body {
+    background-color: aquamarine;
+}
+
+section article {
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+    float: left;
+}
+section {
+    overflow: hidden;
+}
+nav {
+    text-align: center;
+}
+}
+
+
+@media (min-width:1024px){
+    section article {
+        width: 22%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    nav {
+        text-align: right;
+    }
+    body {
+        background-color: blueviolet;
+    }
+  header nav li {
+    background-color:  blueviolet;
+  }
+}

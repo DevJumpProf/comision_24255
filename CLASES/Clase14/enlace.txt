@@ -1,0 +1,27 @@
+https://getbootstrap.com/
+https://github.com/
+
+GIT CLONE : TRAEMOS EL REPOSITORIO A NUESTRA MAQUINA 
+CONECTAMOS EL REMOTO A "LOCAL"
+
+GIT STATUS =  uestra el estado del directorio de trabajo y del área del entorno de ensayo. Permite ver los cambios que se han preparado, los que no y los archivos en los que Git no va a realizar el seguimiento. El resultado del estado no muestra ninguna información relativa al historial del proyecto.
+
+GIT ADD = 
+
+GIT
+Comandos básicos de terminal
+Usaremos la "terminal" o "línea de comandos" durante tu tiempo en Codo a Codo. Si estás en una computadora con Mac o Linux, deberías tener la terminal y git ya instalados. Si estás en una máquina con Windows, te recomendamos instalar "git-bash".
+Dentro de nuestra terminal podemos: revisar nuestra estructura de archivos, añadir, eliminar y modificar archivos, y muchas cosas más. La terminal es una herramienta muy poderosa para los desarrolladores y vas a usarla mucho en tu carrera profesional. Al principio puede parecer aterrador, pero con el tiempo terminarás disfrutando su uso, así que es mejor acostumbrarse ahora. Para comenzar, aprenderemos los comandos "básicos":
+"List": Nos permite ver el contenido de la carpeta donde nos encontramos.
+$ ls
+"Change Directory": Nos permite movernos a una nueva carpeta o "directorio"
+$ cd [carpeta]
+"Make Directory": Crea una nueva carpeta en el directorio donde nos encontramos actualmente.
+$ mkdir [nombre de la carpeta]
+"Touch" creará un nuevo archivo.
+$ touch [nombre del archivo]
+"Remove": Elimina permanentemente un archivo. ¡CUIDADO! Esto traspasa cualquier "papelera de reciclaje" que exista en el sistema y elimina los archivos PERMANENTEMENTE. Como nota, esto no eliminará carpetas, necesitamos un comando especial para eso que aprenderemos más adelante.
+$ rm [nombre del archivo]
+
+
+

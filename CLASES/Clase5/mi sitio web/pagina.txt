@@ -1,0 +1,27 @@
+https://www.ole.com.ar/futbol-internacional/champions-asia-ain-nassr-cristiano-ronaldo-crespo_0_M3hPC7kyGw.html
+
+
+
+investigar : 
+
+picture
+¿la etiqueta picture ocupará el espacio de la dimensión de la imagen?
+
+figcaption
+
+
+
+insertar :
+También podremos colocar otros mapas gratuitos, contenido de Spotify, Vimeo e inclusive incrustar otras páginas web,
+
+refactorizar codigo , estructurar paginas
+
+
+//20-3
+utilizar tablas con rowspan colspan
+
+investigar e implementar un formulario de registro
+
+implementar value placeholder y required en formulario
+
+

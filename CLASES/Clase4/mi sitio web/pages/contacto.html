@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <div>
+      <h1>Personas</h1>
+    </div>
+
+    <main>
+      <table border="2">
+        <thead>
+          <tr>
+            <th>Nombre del grupo</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Error 404</td>
+            <td>Gabriel Omar</td>
+            <td>Batistuta</td>
+            <td>batigol@yahoo.com</td>
+            <td>Editar</td>
+          </tr>
+          <tr>
+            <td>Div Isas</td>
+            <td>Alejandra</td>
+            <td>Oliveras</td>
+            <td>punch@aol.com</td>
+            <td>Editar</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <br />
+    <div>
+      <form action="">
+        <fieldset>
+          <label for="nombre_grupo">Nombre del grupo</label>
+          <input type="text" name="nombre_grupo" id="nombre_grupo" />
+          <br />
+          <br />
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Aca va tu nombre"
+            required
+          />
+          <br />
+          <br />
+        </fieldset>
+
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" />
+
+        <br />
+        <label for="Password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Debe tener minimo 8 caracteres"
+        />
+        <br />
+        <label for="clases">Virtual</label>
+        <input type="checkbox" name="clases" id="clases" />
+        <br />
+        <input type="reset" value="Limpiar" />
+        <input type="submit" value="ENVIAR" />
+      </form>
+    </div>
+  </body>
+</html>

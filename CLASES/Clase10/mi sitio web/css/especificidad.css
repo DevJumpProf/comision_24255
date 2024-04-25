@@ -1,0 +1,25 @@
+/* p{
+    color: red !important;
+} */
+/* body {
+    background-image: url("https://www.xtrafondos.com/wallpapers/batman-12208.jpg");
+    background-size:cover
+
+} */
+#primer-parrafo{
+    color: blue ;
+}
+
+.parrafo {
+    color:green;
+}
+
+/*  p{
+
+ font-size: 1em;
+ background-color: blue; 
+} */
+
+.pixel {
+    font-size: 16px;
+}

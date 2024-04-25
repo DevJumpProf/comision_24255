@@ -1,0 +1,27 @@
+* Agregar Footer
+
+
+* ¿Donde está el h1?
+https://www.mercadolibre.com.ar/
+
+<h1 class="clipped">Mercado Libre</h1>
+
+INSERTAR EN LOS HTML
+
+* Agregar Colores hexadecimales
+
+*header css:
+trabajar los margenes en una sola linea
+
+
+ *  overflow: hidden;
+https://developer.mozilla.org/es/docs/Web/CSS/overflow
+
+
+*
+
+
+
+
+
+

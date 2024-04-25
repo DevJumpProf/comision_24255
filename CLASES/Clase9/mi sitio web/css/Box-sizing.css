@@ -1,0 +1,43 @@
+*{
+    box-sizing: content-box
+/* box-sizing: border-box */
+}
+body{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    border: 2px solid blue;
+    background-color: lightblue;
+    width: 300px;
+    height: 100px;
+    margin: 0px;
+
+}
+
+
+.caja1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+/*     box-sizing: content-box; */
+/* position: absolute; */
+}
+
+.caja2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+
+
+/*     box-sizing: border-box; */
+}
+
+.caja3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    position: sticky ;
+    background-color: aquamarine;
+
+/*     box-sizing: border-box; */
+}
