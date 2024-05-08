@@ -134,60 +134,46 @@ const esPositivo = numero => numero==0? false :numero >0?"Es Positivo" : "Es Neg
 
 console.log(esPositivo(0))
 
-function agregarSimboloExclamacion(str) {
-  // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
-  // Ejemplo: "hello world" pasaría a ser "hello world!"
-  // Tu código:
+/* const agregarSimboloExclamacion = str => str + " " + "!" ; console.log(agregarSimboloExclamacion("Hola")); */
 
+const agregarSimboloExclamacion = str => `${str} !` ; console.log(agregarSimboloExclamacion("Hola"));
+
+const combinarNombres = (nombre, apellido)=> `Hola ${nombre} tu apellido es ${apellido}` ; console.log(combinarNombres("Bruce", "Wayne"));
+
+const obtenerSaludo = nombre => `${nombre} ! ¿como estas?`; console.log(obtenerSaludo("Pedro"));
+console.log(obtenerSaludo("Juana"));
+
+const obtenerAreaRectangulo = (alto, ancho) => ancho*alto ; console.log(obtenerAreaRectangulo(4,4));
+
+
+const retornarPerimetro = lado => lado * 4 ;console.log(retornarPerimetro(10));
+
+const areaDelTriangulo = (base, altura) => base*altura /2; console.log(areaDelTriangulo(10,4));
+
+
+const deEuroAdolar = euro => euro*1.2 ; console.log(deEuroAdolar(200));
+
+
+const esVocal=letra=>{  letra = letra.toLowerCase()
+  return letra.length!=1 ? "Dato Incorrecto" :  (letra == "a"||letra=="e"||letra == "i"||letra == "o"||letra == "u") ? `la letra ${letra} ES VOCAL` : `la letra ${letra} NO  es VOCAL`
 }
 
-function combinarNombres(nombre, apellido) {
-  // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
-  // Ejemplo: "Soy", "Bruce Wayne" -> "Bruce Wayne"
-  // Tu código:
+console.log(esVocal("m"));
 
+/* if (letra.length!=1){
+  return "Dato Incorrecto"
 }
-
-function obtenerSaludo(nombre) {
-  // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
-  // "Martin" -> "Hola Martin!"
-  // Tu código:
-
-}
-
-function obtenerAreaRectangulo(alto, ancho) {
-  // Retornar el area de un cuadrado teniendo su altura y ancho
-  // Tu código:
-
-}
-
-function retornarPerimetro(lado){
-  //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
-  //Escribe tu código aquí
-
-}
-
-function areaDelTriangulo(base, altura){
-  //Desarrolle una función que calcule el área de un triángulo.
-  //Escribe tu código aquí
+else if (letra == "a"||letra=="e"||letra == "i"||letra == "o"||letra == "u")
+{
+return `la letra ${letra} ES VOCAL`
+} 
+else {
+return `la letra ${letra} NO  es VOCAL`
+} */
 
 
-}
-
-function deEuroAdolar(euro){
-  //Supongamos que 1 euro equivale a 1.20 dólares. 
-  //Escribe un programa que pida al usuario un número de euros y calcule el cambio en dólares.
-  //Escribe tu código aquí
-
-}
-
-
-function esVocal(letra){
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
   //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
     //si ingresa una consonante muestre en pantalla dato incorrecto
   //Escribe tu código aquí
-
-
-}
