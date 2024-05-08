@@ -1,5 +1,5 @@
 
-// reemplaza `null` por la respuesta
+// reemplaza `null` por la respuesta o el dato requerido
 
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = "null";
@@ -19,6 +19,10 @@ const nuevaMultiplicacion = null * 4 === 40 ;
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === null;
 
+/* Te daremos las funciones prearmadas
+tienes que completar lo que retorna cada funcion e invocarla dentro de un console.log
+enviar este archivo en formato .zip */
+
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
@@ -27,7 +31,7 @@ return(str)
 console.log(devolverString("Cadena de texto")); 
 
 
-let suma = (x, y) => x+y
+let suma = (x, y) => x+y     // Ejemplo resuelto con funcion flecha
 console.log(suma(10,10));
 
 
