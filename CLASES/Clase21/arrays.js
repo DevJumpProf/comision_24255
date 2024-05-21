@@ -18,8 +18,8 @@ Concact () */
 
 /* splice cambia el contenido de un array eliminando los elementos existentes y/o agregando nuevos elementos */
 
-/* animales.splice(1,2,"Gatito")
-console.log(animales); */
+animales.splice(1,2,"Gatito")
+console.log(animales); 
 
 /* slice () devuelve una copia de una parte del array dentro de un nuevo array, empezando por el inicio hasta el fin ( fin no esta incluido ) no modifica el array actual */
 /* 
