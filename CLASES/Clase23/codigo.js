@@ -69,7 +69,7 @@ const mensaje = () =>{
  */
 
 
-/* EVENTOS DEL MOUSE 
+/* 
 DOUBLECLICK
  */
 
