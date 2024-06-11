@@ -1,7 +1,6 @@
 const http = require("http");
 
-http
-  .createServer((req, res) => {
+http.createServer((req, res) => {
     res.writeHead(200, { "content-type": "text/plain" });
     if (req.url == "/") {
       res.end("este es el home");
