@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Node</title>
+</head>
+<body>
+<!--     formulario de Registro -->
+    <h2>Registro</h2>
+    <form  id="formRegistro">
+<label for="nombreUser">Nombre User:</label>
+<input type="text" name="nombreUser" id="nombreUser" required>
+<br>
+<label for="email">Correo Electronico</label>
+<input type="email" name="email" id="email" required>
+<br>
+<label for="password">Contraseña</label>
+<input type="password" name="password" id="password" required>
+<br>
+<button type="submit">Registrar</button>
+    </form>
+    <div id="registroValidacion"></div>
+
+
+<!--     Formulario de Login -->
+<form  id="formLogin">
+    <label for="LoginNombreUser">Nombre User:</label>
+    <input type="text" name="LoginNombreUser" id="LoginNombreUser" required>
+    <br>
+    <label for="LoginPassword">Contraseña</label>
+    <input type="password" name="LoginPassword" id="LoginPassword" required>
+    <br>
+    <button type="submit">Iniciar Sesion</button>
+        </form>
+        <div id="loginValidacion"></div>
+
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="./index.js"></script>    
+</body>
+</html>
